@@ -7,6 +7,7 @@
 - `docker image ls` : To show all docker images
 - `docker rmi {imageId}` : To remove specific image
 - `docker run -p 9090:8080 spring-boot-docker.jar` : To run docker project. Here 9090 is container port and 8080 is local port
+- `sudo docker run -t -p 8080:8080 --name spring-boot-docker-cont spring-boot-docker-img` : To run docker project. Here 8080 is container port and also local port. 'spring-boot-docker-cont' is container name
 - `docker login` : To login docker hub account in to local machine
 - `docker push userName/spring-boot-docker.jar` : To push docker image in to docker hub
 - `docker pull userName/spring-boot-docker.jar:<tag_name>` : To pull docker hub's image in to local machine. `latest` is default tag
